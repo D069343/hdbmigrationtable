@@ -1,4 +1,5 @@
 # hdbmigrationtable
 # test_lukas
 # funktioniert der push?
-# auch umgekehrt? warum nicht
+# auch umgekehrt? warum nicht - branch+
+
