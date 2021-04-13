@@ -1,7 +1,0 @@
-= version = 1
-
-column table "TLOG_F_C" (
-"Index" NVARCHAR(200),
-"ClientID" NVARCHAR(200),
-"Name" NVARCHAR(200),
-)
