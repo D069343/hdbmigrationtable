@@ -1,0 +1,25 @@
+
+== dev-version=16
+COLUMN TABLE "com.sap.hana.example::tlb_test" ( 
+  "ID" INTEGER, 
+  "NAME1" NVARCHAR(256),
+  "ACTIVE" INT,
+  "ADRESS" NVARCHAR(256),
+  "TURNOVER" INT,
+  PRIMARY KEY ("ID")  
+) 
+== migration=17
+RENAME COLUMN "com.sap.hana.example::tlb_test"."NAME1" TO "NAME";
+
+== version=18
+COLUMN TABLE "com.sap.hana.example::tlb_test" ( 
+  "ID" INTEGER, 
+  "NAME" NVARCHAR(256),
+  "ACTIVE" INT,
+  "ADRESS" NVARCHAR(256),
+  "TURNOVER" INT,
+  PRIMARY KEY ("ID")  
+) 
+
+
+

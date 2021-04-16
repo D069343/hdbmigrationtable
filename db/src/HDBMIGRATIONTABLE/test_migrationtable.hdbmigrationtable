@@ -1,15 +1,6 @@
-== version = 1
-
+== version=1
 column table "test_migrationtable" (
 "Index" NVARCHAR(200),
 "ClientID" NVARCHAR(200),
 "Name" NVARCHAR(200)
-)
-
-== dev-version = 1
-
-column table "test_migrationtable" (
-"Index" NVARCHAR(200),
-"ClientID" NVARCHAR(200),
-"FirstName" NVARCHAR(200)
 )
