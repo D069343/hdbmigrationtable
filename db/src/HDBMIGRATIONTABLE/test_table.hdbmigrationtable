@@ -1,0 +1,9 @@
+== version=2
+column table test_table (
+    "ID" INTEGER, 
+    "FULLNAME" NVARCHAR(256),
+    "STREET" NVARCHAR(100)
+)
+
+== migration=2
+ALTER TABLE test_table ADD ("STREET" NVARCHAR(100));
